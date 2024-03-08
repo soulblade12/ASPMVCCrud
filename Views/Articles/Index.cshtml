@@ -1,0 +1,81 @@
+﻿@model IEnumerable<MyWebFormApp.BLL.DTOs.ArticleDTO>
+@{
+    var getcateg = (List<CategoryDTO>)ViewBag.Categories;
+}
+
+<div class="row mt-4">
+    <div class="col-lg-12">
+        <!-- Basic Card Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Article Page</h6>
+            </div>
+            <div class="card-body">
+                @Html.Raw(ViewBag.Message)
+                <div class="row">
+                   <div class="col-md-6">
+                <form action="/Articles/Index" method="POST" class="form-inline">
+                    <select name="CategoryID" class="form-control mr-2">
+                        <option value="0">--Select Category--</option>
+                        @foreach (var category in getcateg)
+                        {
+                            if(ViewBag.CategoryID != null && ViewBag.CategoryID == category.CategoryID)
+                            {
+                                <option value="@category.CategoryID" selected="selected">@category.CategoryName</option>
+                            }
+                            else
+                            {
+                                <option value="@category.CategoryID">@category.CategoryName</option>
+                            }
+                        }
+                    </select>
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                </form>
+                <a asp-action="Create" class="btn btn-success btn-sm mt-2">Create New Category</a>
+            </div>
+                </div>
+                @Html.Raw(ViewData["message"])
+
+                
+                <table class="table table-striped">
+                    <tr>
+                        @* <th>Article ID</th> *@
+                        <th>Article Title</th>
+                        <th>Article Details</th>
+                        <th>Article Publish Date</th>
+                        <th>Article IsApproved</th>
+                        <th>pic</th>
+                        <th>&nbsp;</th>
+                        <th>&nbsp;</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                    @foreach (var article in Model)
+                    {
+                        <tr>
+                            @* <td>@article.ArticleID</td> *@
+                            <td>@article.Title</td>
+                            <td>@article.Details</td>
+                            <td>@article.PublishDate</td>
+                            <td><input type="checkbox" class="form-check-input" name="IsApproved" value="@article.IsApproved" @(article.IsApproved ? "checked" : "") disabled/></td>
+                            <td>@article.Pic</td>
+                            <td>@article.Category.CategoryName</td>
+                            <td><a asp-action="Edit" asp-route-id="@article.CategoryID" class="btn btn-warning btn-sm">edit</a></td>
+                            <td>
+                                 <a asp-action="Delete" onclick="return confirm('Are you sure you want to delete this article?')" asp-route-id="@article.ArticleID" class="btn btn-danger btn-sm">delete</a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+
+                @* <a class="btn btn-outline-info btn-sm">First</a>&nbsp;
+                <a href="/Categories/Index?act=prev&pageNumber=@pageNumber" class="btn btn-outline-info btn-sm">Prev</a>&nbsp;
+                <a href="/Categories/Index?act=next&pageNumber=@pageNumber" class="btn btn-outline-info btn-sm">Next</a>&nbsp;
+                <a class="btn btn-outline-info btn-sm">Last</a> *@
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
