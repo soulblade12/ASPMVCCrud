@@ -57,7 +57,7 @@
                             <td>@article.Details</td>
                             <td>@article.PublishDate</td>
                             <td><input type="checkbox" class="form-check-input" name="IsApproved" value="@article.IsApproved" @(article.IsApproved ? "checked" : "") disabled/></td>
-                            <td>@article.Pic</td>
+                            <td><img src="~/pic/@article.Pic" alt="@article.Pic" srcset="" width="100">  </td>
                             <td>@article.Category.CategoryName</td>
                             <td><a asp-action="Edit" asp-route-id="@article.CategoryID" class="btn btn-warning btn-sm">edit</a></td>
                             <td>

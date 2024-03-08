@@ -1,6 +1,58 @@
 {
   "Files": [
     {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\0590bfa5-3c4e-45e4-bd3c-db6a7f585d29cover2.jpeg",
+      "PackagePath": "staticwebassets\\pic\\0590bfa5-3c4e-45e4-bd3c-db6a7f585d29cover2.jpeg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\2b3352bd-e716-4528-9680-62dbb1c79f93cover1.jpg",
+      "PackagePath": "staticwebassets\\pic\\2b3352bd-e716-4528-9680-62dbb1c79f93cover1.jpg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\47f49571-1b53-408c-9f6c-c3fb660faf35cover2.jpeg",
+      "PackagePath": "staticwebassets\\pic\\47f49571-1b53-408c-9f6c-c3fb660faf35cover2.jpeg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\6043a809-81be-40d0-86f8-f33253c6ce80cover2.jpeg",
+      "PackagePath": "staticwebassets\\pic\\6043a809-81be-40d0-86f8-f33253c6ce80cover2.jpeg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\6f054a1b-26a8-446b-9b7c-891ffcf9e3fccover1.jpg",
+      "PackagePath": "staticwebassets\\pic\\6f054a1b-26a8-446b-9b7c-891ffcf9e3fccover1.jpg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\8733d09c-fcb0-43f0-8896-4d9d445e1c19cover1.jpg",
+      "PackagePath": "staticwebassets\\pic\\8733d09c-fcb0-43f0-8896-4d9d445e1c19cover1.jpg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\a11392a9-8be6-4c4e-9ecc-d95114d03080cover1.jpg",
+      "PackagePath": "staticwebassets\\pic\\a11392a9-8be6-4c4e-9ecc-d95114d03080cover1.jpg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\ad8f7a01-17ef-4082-ba60-ea9bd0b25624cover2.jpeg",
+      "PackagePath": "staticwebassets\\pic\\ad8f7a01-17ef-4082-ba60-ea9bd0b25624cover2.jpeg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\dua.png",
+      "PackagePath": "staticwebassets\\pic\\dua.png"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\empat.png",
+      "PackagePath": "staticwebassets\\pic\\empat.png"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\f577bc00-ed02-4f82-8dc5-e142f0449fcdcover2.jpeg",
+      "PackagePath": "staticwebassets\\pic\\f577bc00-ed02-4f82-8dc5-e142f0449fcdcover2.jpeg"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\satu.png",
+      "PackagePath": "staticwebassets\\pic\\satu.png"
+    },
+    {
+      "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\pic\\tiga.png",
+      "PackagePath": "staticwebassets\\pic\\tiga.png"
+    },
+    {
       "Id": "D:\\[SOE BSI]\\BOOT CAMP\\C#\\ASPWebFormExample\\SampleMVC\\wwwroot\\startbootstrap\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\startbootstrap\\css\\sb-admin-2.css"
     },
